@@ -19,13 +19,14 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: The site must be using permalinks and 4.7 or 4.7.1. Run the python script with the URL, post ID, and new post content.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+1. Persistent Cross-Site Scripting CVE-2015-3440
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  https://www.exploit-db.com/exploits/36844/
+    - Vulnerability types: Persisstent XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: <img src="https://github.com/rlucus/codepath/raw/master/comment_xss/comment_xss.gif">
+  - [ ] Steps to recreate: Post a comment with a XSS payload. The script must be filled with atleast 64kb of data in order to bypass the filter.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
