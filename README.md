@@ -19,7 +19,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: The site must be using permalinks and 4.7 or 4.7.1. Run the python script with the URL, post ID, and new post content.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. Persistent Cross-Site Scripting CVE-2015-3440
+2. Persistent Cross-Site Scripting CVE-2015-3440
   - [ ] Summary: 
   https://www.exploit-db.com/exploits/36844/
     - Vulnerability types: Persisstent XSS
