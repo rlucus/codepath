@@ -15,7 +15,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Gives the attacked complete access to Page/Post content. Can be used to execute persistent secondary XSS and CSRF attacks.
     - Tested in version: 4.7
     - Fixed in version: 4.7.2
-  - [ ] GIF Walkthrough: (codepath/inject/inject.gif)
+  - [ ] GIF Walkthrough: (https://github.com/rlucus/codepath/inject/inject.gif)
   - [ ] Steps to recreate: The site must be using permalinks and 4.7 or 4.7.1. Run the python script with the URL, post ID, and new post content.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
