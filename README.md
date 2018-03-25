@@ -29,12 +29,12 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Post a comment with a XSS payload. The script must be filled with atleast 64kb of data in order to bypass the filter.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. User Enumeration CVE-2017-5487
+3. Admin Dashboard Persistent Cross-Site Scripting 
   - [ ] Summary: 
-    - Vulnerability types: User Enumeration
-    - Tested in version: 4.6
-    - Fixed in version: 4.7.1
-  - [ ] GIF Walkthrough: (<img src="https://github.com/rlucus/codepath/raw/master/user_enum.gif">)
+    - Vulnerability types: Persisstent XSS
+    - Tested in version: 3.9.2
+    - Fixed in version: 4.0
+  - [ ] GIF Walkthrough: (<img src="https://github.com/rlucus/codepath/raw/master/admin_xss.gif">)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
