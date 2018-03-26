@@ -3,7 +3,7 @@ Codepath Security Course Assignments
 
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -20,7 +20,7 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 2. Persistent Cross-Site Scripting CVE-2015-3440
-  - [ ] Summary: 
+  - [ ] Summary: The filter that removes unwanted code from comments is overloaded by 64kb of data.
   https://www.exploit-db.com/exploits/36844/
     - Vulnerability types: Persisstent XSS
     - Tested in version: 4.2
@@ -30,12 +30,12 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 3. Admin Dashboard Persistent Cross-Site Scripting 
-  - [ ] Summary: 
+  - [ ] Summary: The regex that filters malicious code can be subverted. It can be triggered by any user viewing the comment and, more importantly, in the admin dashboard.
     - Vulnerability types: Persisstent XSS
     - Tested in version: 3.9.2
     - Fixed in version: 4.0
   - [ ] GIF Walkthrough: (<img src="https://github.com/rlucus/codepath/raw/master/admin_xss.gif">)
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: The payload is crafted to bypass the filter and is posted in any comment section.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
